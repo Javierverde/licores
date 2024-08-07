@@ -1,0 +1,205 @@
+.navbar-brand img {
+    width: 90px;
+    height: 100px;
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1)
+}
+
+.nav-item {
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    transform: rotate(10deg) scale(1.2)
+}
+
+div img.imagenCentral {
+    width: 100%;
+}
+
+
+.textoCentral {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.textoCentral h1 {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    padding: 10px 50PX;
+    background-color: #bcbcbc;
+    color: rgb(32, 32, 32);
+    font-family: "Barlow Condensed";
+    font-weight: 500;
+    font-style: normal
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.card .card-body h5.card-title {
+    font-family: "Barlow Condensed";
+    font-weight: 500;
+    font-style: normal
+}
+
+.card .card-body p.card-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div a.nuestrosProductos {
+    text-decoration: none;
+
+}
+
+div a.nuestrosProductos h5 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: "Barlow Condensed";
+    font-weight: 500;
+    font-style: normal
+}
+div.row {
+    width: 100%;
+}
+div p.col-sm-12 {
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+div.row {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: lightgrey;
+
+}
+
+
+
+footer {
+    background-color: #6b6666;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footerItem {
+    flex: 1;
+    min-width: 200px;
+    margin: 0 10px;
+    line-height: 10px;
+}
+
+.footerItem h6 {
+    margin-top: 0;
+}
+
+
+.footerItemSociales a {
+    color: #fff;
+    text-decoration: none;
+}
+.footerItemSociales a img{
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.footerItemSociales a img:hover {
+    transform: scale(1.1)
+}
+
+/* Medios de comunicación */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .footer-item {
+        margin: 10px 0;
+    }
+}
+
+section.firstImage {
+    margin-top: 30px;
+
+}
+section div p.col-sm-12{
+    font-family: "Barlow Condensed";
+    font-weight: 500;
+    font-size: 1.5rem
+}
+
+section.intro {
+    margin-top: 30px;
+}
+/* 
+
+
+
+.productoLemoncello {
+    width: 600px;
+    height: auto;
+
+}
+
+.sabores {
+    font-size: xx-large;
+}
+
+.eventos {
+    font-size: xx-large;
+}
+
+.evento1 {
+    width: 700px;
+    height: auto;
+    display: block;
+}
+
+.nosotros {
+    width: 600px;
+    height: auto;
+    margin: 10;
+    padding: 10;
+}
+
+.nosotrosTexto {
+    text-align: center;
+}
+
+.labels {
+    font-size: small;
+}
+
+*/
