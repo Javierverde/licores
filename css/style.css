@@ -163,6 +163,7 @@ section div p.col-sm-12{
 section.intro {
     margin-top: 30px;
 }
+
 div.carousel-caption h5 {
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -173,43 +174,44 @@ div.carousel-caption p{
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
-/* 
 
-
-
-.productoLemoncello {
-    width: 600px;
-    height: auto;
+div.containerContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 
 }
-
-.sabores {
-    font-size: xx-large;
+div p.textoMapa {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+div div.mb-3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+div iframe{
+    width: 100%;
+}
+#accordionFlushExample {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 1000px;
 }
 
-.eventos {
-    font-size: xx-large;
-}
 
-.evento1 {
-    width: 700px;
-    height: auto;
-    display: block;
+a.whatsapp{
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
 }
-
-.nosotros {
-    width: 600px;
-    height: auto;
-    margin: 10;
-    padding: 10;
+.whatsapp img{
+    width: 50px;
+    height: 50px;
 }
-
-.nosotrosTexto {
-    text-align: center;
-}
-
-.labels {
-    font-size: small;
-}
-
-*/
