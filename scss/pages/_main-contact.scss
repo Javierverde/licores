@@ -45,6 +45,7 @@ a.whatsapp{
     @include flex (flex, inherit, flex-end, inherit);
     img{
         @include tamano (50px, 50px);
+        transition: 0.4s;
         &:hover {
             transform: scale(1.2);
         }
