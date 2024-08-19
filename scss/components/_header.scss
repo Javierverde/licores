@@ -1,7 +1,6 @@
 .navbar-brand img {
-    width: 90px;
-    height: 100px;
-    margin-left: 20px;
+    @include tamano (90px,100px);
+    @include margin (auto, auto, auto, 20px);
     transition: transform 0.3s ease-in-out;
 
     &:hover {
@@ -10,7 +9,7 @@
 }
 
 .nav-item {
-    height: auto;
+    @include tamano (inherit, auto);
     transition: transform 0.3s ease-in-out;
 
     a {

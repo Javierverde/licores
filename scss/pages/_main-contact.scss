@@ -9,9 +9,7 @@
         color: $color-h1;
         @extend %font-titulo;
         font-style: normal;
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 20px;
+        @include margin (20px, 20%, 10px, 20%);
     }
 
     div {
@@ -22,11 +20,11 @@
         p.textoMapa {
             color: black;
             font-size: 20px;
-            margin-top: 20px;
+            @include margin (20px, auto, 10px, auto);
         }
 
         div.mb-3 {
-            margin-top: 20px;
+            @include margin (20px, auto, auto, auto);
             font-size: 20px;
             color: black;
         }
@@ -34,8 +32,7 @@
 }
 
 #accordionFlushExample {
-    margin-left: 20%;
-    margin-right: 20%;
+    @include margin (auto, 20%, auto, 20%);
     max-width: 1000px;
 }
 
@@ -43,13 +40,10 @@ a.whatsapp{
     position: sticky;
     bottom: 20px;
     right: 20px;
-    margin-left: auto;
-    margin-right: 20px;
+    @include margin (auto, 20px, auto, auto);
     z-index: 1000;
-    display: flex;
-    justify-content: flex-end;
+    @include flex (flex, inherit, flex-end, inherit);
     img{
-        width: 50px;
-        height: 50px;
+        @include tamano (50px, 50px);
     }
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-section.thirdImage div p.col-sm-12, section.secondImage div p.col-sm-12, section.firstImage div p.col-sm-12, .card .card-body h5.card-title {
+section.intro div p.col-sm-12, section.thirdImage div p.col-sm-12, section.secondImage div p.col-sm-12, section.firstImage div p.col-sm-12, .card .card-body h5.card-title {
   font-family: "Barlow Condensed";
   font-weight: 500;
   font-size: 1.5rem;
@@ -18,6 +18,9 @@ section.thirdImage div p.col-sm-12, section.secondImage div p.col-sm-12, section
 .navbar-brand img {
   width: 90px;
   height: 100px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   margin-left: 20px;
   transition: transform 0.3s ease-in-out;
 }
@@ -26,6 +29,7 @@ section.thirdImage div p.col-sm-12, section.secondImage div p.col-sm-12, section
 }
 
 .nav-item {
+  width: inherit;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
@@ -38,6 +42,7 @@ section.thirdImage div p.col-sm-12, section.secondImage div p.col-sm-12, section
 
 div img.imagenCentral {
   width: 100%;
+  height: inherit;
 }
 
 .card {
@@ -60,11 +65,17 @@ a.nuestrosProductos h5 {
 
 div.row {
   width: 100%;
+  height: inherit;
+  margin-top: auto;
+  margin-right: auto;
   margin-bottom: 20px;
+  margin-left: auto;
 }
 div.row p.col-sm-12 {
   display: flex;
   align-items: center;
+  justify-content: inherit;
+  flex-wrap: inherit;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: justify;
   font-size: 20px;
@@ -72,6 +83,9 @@ div.row p.col-sm-12 {
 
 section.firstImage {
   margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 .textoContacto h1 {
   border: 1px;
@@ -82,9 +96,10 @@ section.firstImage {
   background-color: #bcbcbc;
   color: rgb(32, 32, 32);
   font-style: normal;
-  margin-left: 20%;
-  margin-right: 20%;
   margin-top: 20px;
+  margin-right: 20%;
+  margin-bottom: 10px;
+  margin-left: 20%;
 }
 .textoContacto div iframe {
   width: 100%;
@@ -93,16 +108,24 @@ section.firstImage {
   color: black;
   font-size: 20px;
   margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
 }
 .textoContacto div div.mb-3 {
   margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
   font-size: 20px;
   color: black;
 }
 
 #accordionFlushExample {
-  margin-left: 20%;
+  margin-top: auto;
   margin-right: 20%;
+  margin-bottom: auto;
+  margin-left: 20%;
   max-width: 1000px;
 }
 
@@ -110,11 +133,15 @@ a.whatsapp {
   position: sticky;
   bottom: 20px;
   right: 20px;
-  margin-left: auto;
+  margin-top: auto;
   margin-right: 20px;
+  margin-bottom: auto;
+  margin-left: auto;
   z-index: 1000;
   display: flex;
+  align-items: inherit;
   justify-content: flex-end;
+  flex-wrap: inherit;
 }
 a.whatsapp img {
   width: 50px;
@@ -123,13 +150,10 @@ a.whatsapp img {
 
 section.intro {
   margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
-section.intro div p.col-sm-12 {
-  font-family: "Barlow Condensed";
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-
 div.carousel-caption h5 {
   color: rgb(225, 225, 225);
   font-weight: bold;
@@ -147,16 +171,23 @@ footer {
 }
 footer .container {
   display: flex;
+  align-items: inherit;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
   padding: 0 20px;
 }
 footer .container .footerItem {
   flex: 1;
   min-width: 200px;
-  margin: 0 10px;
+  margin-top: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-left: 10px;
   line-height: 10px;
 }
 footer .container .footerItem h6 {
@@ -168,7 +199,10 @@ footer .container .footerItemSociales a {
 }
 footer .container .footerItemSociales a img {
   transition: transform 0.3s ease-in-out;
-  margin: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 footer .container .footerItemSociales a img:hover {
   transform: scale(1.1);
@@ -180,7 +214,9 @@ body {
 
 .textoCentral {
   display: flex;
+  align-items: inherit;
   justify-content: center;
+  flex-wrap: inherit;
   margin-top: 20px;
 }
 .textoCentral h1 {

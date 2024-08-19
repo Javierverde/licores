@@ -1,5 +1,5 @@
 div img.imagenCentral {
-    width: 100%;
+    @include tamano (100%, inherit);
 }
 
 .card {
@@ -28,11 +28,10 @@ a.nuestrosProductos {
 }
 
 div.row {
-    width: 100%;
-    margin-bottom: 20px;
+    @include tamano (100%, inherit);
+    @include margin (auto, auto, 20px, auto);
     p.col-sm-12 {
-        display: flex;
-        align-items: center;
+        @include flex(flex, center, inherit, inherit);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: justify;
         font-size: 20px;

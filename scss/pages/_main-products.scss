@@ -1,9 +1,7 @@
 section.intro {
-    margin-top: 30px;
+    @include margin (30px, auto, auto, auto);
     div p.col-sm-12{
-        font-family: "Barlow Condensed";
-        font-weight: 500;
-        font-size: 1.5rem
+        @extend %font-text;
     }
 }
 

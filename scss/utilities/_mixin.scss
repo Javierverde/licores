@@ -1,0 +1,18 @@
+@mixin flex ($flex-d, $align-items, $justify-content, $wrap){
+    display: $flex-d;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    flex-wrap: $wrap;
+}
+
+@mixin tamano ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin margin ($m-top, $m-right, $m-bottom, $m-left){
+    margin-top: $m-top;
+    margin-right: $m-right;
+    margin-bottom: $m-bottom;
+    margin-left: $m-left;
+}
