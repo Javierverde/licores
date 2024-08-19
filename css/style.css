@@ -146,7 +146,7 @@ a.whatsapp {
 a.whatsapp img {
   width: 50px;
   height: 50px;
-  transition: 0.4s;
+  transition: transform 0.3s ease-in-out;
 }
 a.whatsapp img:hover {
   transform: scale(1.2);
