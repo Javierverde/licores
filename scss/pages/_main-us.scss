@@ -1,0 +1,18 @@
+section.firstImage {
+    margin-top: 30px;
+    div p.col-sm-12{
+        @extend %font-text;
+    }
+}
+
+section.secondImage {
+    div p.col-sm-12{
+        @extend %font-text;
+    }
+}
+
+section.thirdImage {
+    div p.col-sm-12{
+        @extend %font-text;
+    }
+}

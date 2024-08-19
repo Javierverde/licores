@@ -1,0 +1,23 @@
+.navbar-brand img {
+    width: 90px;
+    height: 100px;
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1)
+    }
+}
+
+.nav-item {
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+
+    a {
+        color:$color-nav;
+
+        &:hover {
+            transform: rotate(10deg) scale(1.2)
+        }
+    }
+}

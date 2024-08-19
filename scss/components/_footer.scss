@@ -1,0 +1,36 @@
+footer {
+    background-color: $color-background-footer;
+    color: $color-footer;
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .footerItem {
+            flex: 1;
+            min-width: 200px;
+            margin: 0 10px;
+            line-height: 10px;
+
+            h6 {
+                margin-top: 0;
+            }
+        }
+        .footerItemSociales a {
+            color:$color-footer;
+            text-decoration: none;
+            img{
+                transition: transform 0.3s ease-in-out;
+                margin: 10px;
+                &:hover {
+                    transform: scale(1.1)
+                }
+            }
+        }
+    }
+}

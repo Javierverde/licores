@@ -1,0 +1,21 @@
+section.intro {
+    margin-top: 30px;
+    div p.col-sm-12{
+        font-family: "Barlow Condensed";
+        font-weight: 500;
+        font-size: 1.5rem
+    }
+}
+
+div.carousel-caption {
+    h5 {
+        color: $color-carousel-h5;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p{
+        color: $color-carousel-p;
+        font-weight: bold;
+    }
+}
+

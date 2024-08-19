@@ -1,0 +1,20 @@
+body {
+    background-color: $color-background-body;
+
+}
+.textoCentral {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    h1 {
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        text-align: center;
+        padding: 10px 50PX;
+        background-color: $color-background-texto;
+        color: $color-h1;
+        @extend %font-titulo;
+        font-style: normal
+    }
+}

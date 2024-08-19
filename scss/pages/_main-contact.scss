@@ -1,0 +1,55 @@
+.textoContacto {
+    h1 {
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+        text-align: center;
+        padding: 10px 50PX;
+        background-color: $color-background-texto;
+        color: $color-h1;
+        @extend %font-titulo;
+        font-style: normal;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 20px;
+    }
+
+    div {
+        iframe {
+            width: 100%;
+        }
+
+        p.textoMapa {
+            color: black;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        div.mb-3 {
+            margin-top: 20px;
+            font-size: 20px;
+            color: black;
+        }
+    }
+}
+
+#accordionFlushExample {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 1000px;
+}
+
+a.whatsapp{
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
