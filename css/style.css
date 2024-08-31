@@ -34,7 +34,7 @@ section.intro div p.col-sm-12, section.thirdImage div p.col-sm-12, section.secon
   transition: transform 0.3s ease-in-out;
 }
 .nav-item a {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .nav-item a:hover {
   transform: rotate(10deg) scale(1.2);
